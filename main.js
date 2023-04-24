@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function(){
         if(currentValue != '' && previousValue != ''){
             calculate()
             previousScreen.textContent = '';
-            if(previousValue.lenght <= 5){
+            if(previousValue.length <= 5){
                 currentScreen.textContent = previousValue;
             } else{
                 currentScreen.textContent = previousValue.slice(0,5) + "...";
